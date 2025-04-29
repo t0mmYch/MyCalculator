@@ -1,12 +1,57 @@
-# React + Vite
+# MyCalculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, modern calculator app inspired by the iPhone calculator, built with React and JavaScript.
 
-Currently, two official plugins are available:
+![MyCalculator](./src/MyCalculator.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- iPhone-style calculator UI
+- Responsive and animated buttons
+- Real-time expression display
+- Keyboard support for all calculator functions
+- Custom color palette
+- Watermark branding
+- GitHub profile link
 
-## Expanding the ESLint configuration
+## Demo
+You can run the app locally by following the instructions below.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+1. **Clone the repository:**
+   
+   git clone <your-repo-url>
+   cd MyCalculator
+   
+2. **Install dependencies:**
+   npm install
+   
+3. **Start the development server:**
+   npm run dev
+   
+4. **Open your browser:**
+   Visit [http://localhost:5173] or the port shown in your terminal.
+
+## Usage
+- Click the buttons or use your keyboard to perform calculations.
+- The calculator supports basic arithmetic, percent, sign change, and real-time expression display.
+- Click the GitHub button at the top to visit my profile.
+
+## Keyboard Shortcuts
+- Numbers: `0-9`
+- Operators: `+`, `-`, `*`, `/`
+- Equals: `Enter` or `=`
+- Clear: `Escape` or `AC`
+- Sign: `F9` or `+/-`
+- Percent: `%`
+- Decimal: `.`
+
+## Credits
+- UI inspired by iPhone calculator
+- Button motion from [Uiverse.io by barisdogansutcu](https://uiverse.io/barisdogansutcu)
+- GitHub button style inspired by Uiverse.io
+- Font: [Chewy](https://fonts.google.com/specimen/Chewy)
+- Developed by [@t0mmych](https://github.com/t0mmych)
+
+## License
+
+This project is open source and available to everyone
