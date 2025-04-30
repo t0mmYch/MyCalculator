@@ -154,7 +154,7 @@ body, #root {
 }
 
 .github-btn {
-  padding: 17px 40px;
+  padding: 12px 30px;
   border-radius: 50px;
   cursor: pointer;
   border: 0;
@@ -162,12 +162,12 @@ body, #root {
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 13px;
   transition: all 0.5s ease;
   color: #222;
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   font-weight: 700;
   position: absolute;
   top: 32px;
@@ -175,6 +175,15 @@ body, #root {
   transform: translateX(-50%);
   z-index: 10;
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .github-btn {
+    position: relative;
+    top: 0;
+    margin: 0 auto 20px auto;
+    transform: none;
+  }
 }
 
 .github-btn:hover {
