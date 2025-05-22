@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
 
-body, #root {
+body,
+#root {
   background: #169976 !important;
   min-height: 100vh;
   min-width: 100vw;
@@ -22,9 +23,9 @@ body, #root {
 
 .watermark-text {
   font-size: 3vw;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
   font-weight: bold;
-  font-family: 'Chewy', cursive;
+  font-family: "Chewy", cursive;
   user-select: none;
   white-space: nowrap;
   letter-spacing: 2px;
@@ -49,7 +50,7 @@ body, #root {
   background: #222222;
   border-radius: 20px;
   padding: 24px 16px 16px 16px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -97,7 +98,7 @@ body, #root {
   font-weight: 800;
   border: none;
   border-radius: 50%;
-  background: #1DCD9F;
+  background: #1dcd9f;
   color: #fff;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -128,8 +129,9 @@ body, #root {
   transition: 100ms;
 }
 
-.calculator-btn.operator, .calculator-btn.equals {
-  background: #FF9500;
+.calculator-btn.operator,
+.calculator-btn.equals {
+  background: #ff9500;
   color: #fff;
 }
 
@@ -146,7 +148,8 @@ body, #root {
   margin-right: 12px;
 }
 
-#root, body {
+#root,
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,4 +203,4 @@ body, #root {
   box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
   transform: translate(-50%, 10px);
   transition: 100ms;
-} 
+}
