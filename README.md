@@ -51,6 +51,7 @@ You can run the app locally by following the instructions below.
 - GitHub button style inspired by Uiverse.io
 - Font: [Chewy](https://fonts.google.com/specimen/Chewy)
 - Developed by [@t0mmych](https://github.com/t0mmych)
+- Deployment link: https://my-calculator-tommych.netlify.app/
 
 ## License
 
