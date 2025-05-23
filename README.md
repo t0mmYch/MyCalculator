@@ -29,7 +29,7 @@ You can run the app locally by following the instructions below.
    npm run dev
    
 4. **Open your browser:**
-   Visit [http://localhost:5173] or the port shown in your terminal.
+   Visit [https://my-calculator-tommych.netlify.app/] or the port shown in your terminal.
 
 ## Usage
 - Click the buttons or use your keyboard to perform calculations.
